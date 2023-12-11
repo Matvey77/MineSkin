@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" media="screen and (color)" href="./css/media.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="open-modal-reg-btn" id="open-modal-reg-btn"></button>
+    </div>
+    <div id="modal-reg" class="modal">
+      <div id="modal__box" class="modal__box">
+        <button class="close-modal-reg-btn" id="close-modal-reg-btn"></button>
+        <div class="background__img"></div>
+        <div class="grid__body__button">
+          <button class="grid__button" type="submit">
+            Уже имеется аккаунт
+          </button>
+          <div class="grid__item__img">
+            <img src="../images/steves_head.png" alt="Голова Стива" />
+          </div>
+        </div>
+        <div class="plate">
+          <img src="../images/plate.png" alt="Табличка" />
+        </div>
+        <div class="text__reg">Регистрация</div>
+        <form
+          class="form"
+          action="#"
+          method="get"
+          enctype="multipart/form-data"
+        >
+          <div class="from__item">
+            <input
+              placeholder="Логин"
+              type="text"
+              name="login"
+              class="from__input"
+              value=""
+            />
+          </div>
+          <div class="field__item">
+            <input
+              placeholder="Почта"
+              type="text"
+              name="mail"
+              class="from__input"
+              value=""
+            />
+          </div>
+          <div class="field__item">
+            <input
+              placeholder="Пароль"
+              type="password"
+              name="password_1"
+              class="from__input"
+              value=""
+            />
+          </div>
+          <div class="field__item">
+            <input
+              placeholder="Пароль"
+              type="password"
+              name="password_2"
+              class="from__input"
+              value=""
+            />
+          </div>
+        </form>
+        <div class="grid__body__button__gotovo">
+          <div class="torch__item"></div>
+          <button class="form__button" type="submit">ГОТОВО</button>
+          <div class="torch__item"></div>
+        </div>
+      </div>
+    </div>
+    <script defer src="./javascript/index.js"></script>
+  </body>
+</html>
