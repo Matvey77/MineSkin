@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/modal_reg.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (color)"
+      href="../css/modal_reg_media.css"
+    />
+    <link rel="stylesheet" href="../css/modal_auth.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (color)"
+      href="../css/modal_auth_media.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="open-modal-reg-btn" id="open-modal-reg-btn"></button>
+    </div>
+    <div id="modal__reg" class="modal__reg">
+      <div id="modal__box-reg" class="modal__box__reg">
+        <button id="close-modal-reg-btn" class="close__button__reg"></button>
+        <div class="background__img"></div>
+        <div class="grid__body__button">
+          <button id="open-modal-auth-btn" class="grid__button" type="button">
+            Уже имеется аккаунт
+          </button>
+          <div class="grid__item__img">
+            <img src="../images/steves_head.png" alt="Голова Стива" />
+          </div>
+        </div>
+        <div class="plate">
+          <img src="../images/plate.png" alt="Табличка" />
+        </div>
+        <div class="text__reg">Регистрация</div>
+        <form
+          class="form"
+          action="#"
+          method="get"
+          enctype="multipart/form-data"
+        >
+          <div class="from__item">
+            <input
+              placeholder="Логин"
+              type="text"
+              name="login"
+              class="from__input"
+              value=""
+            />
+          </div>
+          <div class="field__item">
+            <input
+              placeholder="Почта"
+              type="text"
+              name="mail"
+              class="from__input"
+              value=""
+            />
+          </div>
+          <div class="field__item">
+            <input
+              placeholder="Пароль"
+              type="password"
+              name="password_1"
+              class="from__input"
+              value=""
+            />
+          </div>
+          <div class="field__item">
+            <input
+              placeholder="Пароль"
+              type="password"
+              name="password_2"
+              class="from__input"
+              value=""
+            />
+          </div>
+        </form>
+        <div class="grid__body__button__gotovo">
+          <div class="torch__item"></div>
+          <button class="form__button" type="submit">ГОТОВО</button>
+          <div class="torch__item"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal__auth" class="modal__auth">
+      <div id="modal__box-auth" class="modal__box__auth">
+        <button id="close-modal-auth-btn" class="close__button__auth">
+          <img src="../images/close_button.png" alt="Кнопка закрыть" />
+        </button>
+        <div class="background__img__auth"></div>
+        <div class="plate__auth">
+          <img src="../images/plate_auth.png" alt="Табличка" />
+        </div>
+        <div class="text__auth">Вход</div>
+        <form
+          class="form__auth"
+          action="#"
+          method="get"
+          enctype="multipart/form-data"
+        >
+          <div class="field__item">
+            <input
+              placeholder="Почта"
+              type="text"
+              name="mail"
+              class="from__input__auth"
+              value=""
+            />
+          </div>
+          <div class="field__item">
+            <input
+              placeholder="Пароль"
+              type="password"
+              name="password_1"
+              class="from__input__auth"
+              value=""
+            />
+          </div>
+        </form>
+        <div class="grid__body__button__gotovo__auth">
+          <div class="torch__item__auth"></div>
+          <button class="form__button__auth" type="submit">ГОТОВО</button>
+          <div class="torch__item__auth"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" defer src="../javascript/index.js"></script>
+  </body>
+</html>
