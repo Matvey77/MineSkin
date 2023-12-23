@@ -1,0 +1,489 @@
+@font-face {
+  font-family: "PressStart2P";
+  src: url("../font/PressStart2P.ttf");
+  font-weight: Regular;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "PressStart2P";
+}
+
+body {
+  font-size: 14px;
+  margin: 0;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: url("../images/backgr.png");
+}
+
+.videos {
+  width: 1144px;
+  height: 760px;
+  background: rgba(38, 34, 56, 1);
+  margin-top: 125px;
+  margin-left: 673px;
+}
+
+/* Видео вставки */
+
+.vidOne,
+.vidTwo,
+.vidThree,
+.vidFour {
+  width: 451px;
+  height: 240px;
+  margin-top: 60px;
+  margin-left: 37px;
+}
+
+.greyLine {
+  width: 100%;
+  border: 9px solid rgba(255, 255, 255, 0.23);
+  margin-top: 18px;
+}
+
+.vidText {
+  width: 604px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: Bold;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 41px;
+  margin-left: 200px;
+  display: -webkit-inline-box;
+}
+
+.header {
+  width: 1580px;
+  height: 130px;
+  background: rgba(26, 20, 46, 0.89);
+  padding-top: 69px;
+  margin-left: 237px;
+}
+
+.personalAccount {
+  width: 69px;
+  height: 69px;
+  background: rgba(206, 223, 255, 1);
+  margin-top: -40px;
+  margin-left: 1240px;
+}
+
+.personalAccountText{
+  display: none;
+}
+
+.personalAccountLine{
+  width: 264px;
+  height: 10px;
+  background: rgba(56, 66, 77, 1);
+  margin-top: 20px; 
+  display: none;
+}
+
+.personalAccountAvatar {
+  width: 55px;
+  height: 56px;
+  background: url("../images/main_menu2.png");
+  margin-top: 6px;
+  margin-left: 7px;
+  display: -webkit-inline-box;
+}
+
+.support {
+  width: 264px;
+  height: 70px;
+  background: rgba(124, 137, 162, 1);
+  margin-top: -70px;
+  margin-left: 820px;
+}
+
+.supportText {
+  width: 180px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 25px;
+  margin-left: 69px;
+  font-size: 20px;
+  text-align: center;
+  display: -webkit-inline-box;
+}
+
+.supportLine {
+  width: 264px;
+  height: 10px;
+  background: rgba(57, 66, 77, 1);
+  margin-top: 22px;
+}
+
+.supportPic {
+  width: 38px;
+  height: 50px;
+  background: url("../images/escape_menu4.png");
+  margin-top: -62px;
+  margin-left: 16px;
+}
+
+.catalog {
+  width: 264px;
+  height: 70px;
+  background: rgba(124, 137, 162, 1);
+  margin-top: -70px;
+  margin-left: 484px;
+}
+
+.catalogText {
+  width: 217px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 12px;
+  margin-left: 38px;
+  font-size: 20px;
+  text-align: center;
+  display: -webkit-inline-box;
+}
+
+.catalogLine {
+  width: 264px;
+  height: 10px;
+  background: rgba(57, 66, 77, 1);
+  margin-top: 12px;
+}
+
+.catalogPic {
+  width: 40px;
+  height: 57px;
+  background: url("../images/world_creation2.png");
+  margin-top: -70px;
+  margin-left: 16px;
+}
+
+.mainScreen {
+  width: 264px;
+  height: 70px;
+  background: rgba(124, 137, 162, 1);
+  margin-top: -70px;
+  margin-left: 149px;
+}
+
+.mainScreenText {
+  width: 140px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 22px;
+  margin-left: 78px;
+  font-size: 20px;
+  text-align: center;
+  display: -webkit-inline-box;
+}
+
+.mainScreenLine {
+  width: 264px;
+  height: 10px;
+  background: rgba(56, 66, 77, 1);
+  margin-top: 20px; 
+}
+
+.mainScreenPic {
+  width: 54px;
+  height: 49px;
+  background: url("../images/shape2.png");
+  margin-top: -64px;
+  margin-left: 12px;
+}
+
+.logo {
+  width: 358px;
+  height: 88px;
+  z-index: 1;
+  background: url("../images/mineskin.png");
+  background-position: center center;
+  background-size: cover;
+  margin-top: -200px;
+  margin-left: 1320px;
+}
+
+.news {
+  width: 417px;
+  height: 206px;
+  background: rgba(38, 34, 56, 1);
+  margin-top: -206px;
+  margin-left: 237px;
+}
+
+.newsText {
+  width: 280px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 83px;
+  margin-left: 68px;
+  font-size: 40px;
+  text-align: center;
+  display: -webkit-inline-box;
+}
+
+.faq {
+  width: 413px;
+  height: 206px;
+  background: rgba(38, 34, 56, 1);
+  margin-top: -491px;
+  margin-left: 237px;
+}
+
+.faqText {
+  width: 120px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 81px;
+  margin-left: 146px;
+  font-size: 40px;
+  text-align: center;
+  display: -webkit-inline-box;
+}
+
+.techSupport {
+  width: 425px;
+  height: 206px;
+  background: rgba(38, 34, 56, 1);
+  margin-top: -475px;
+  margin-left: 237px;
+}
+
+.techSupportText {
+  width: 418px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 63px;
+  margin-left: 7px;
+  font-size: 40px;
+  text-align: center;
+  display: -webkit-inline-box;
+}
+
+.waste{
+  width: 1580px;
+  height: 69px;
+  padding-top: 0px;
+  margin-left: 237px;
+}
+
+.wasteBottom{
+  width: 1580px;
+  height: 69px;
+  padding-bottom: 600px;
+  margin-left: 237px;
+}
+
+/* Медиазапрос для устройств с максимальной шириной 768px (планшеты и мобильные устройства) */
+@media only screen and (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+  }
+
+  .videos,
+  .vidOne,
+  .vidTwo,
+  .vidThree,
+  .vidFour,
+  .header,
+  .personalAccount,
+  .support,
+  .catalog,
+  .mainScreen,
+  .logo,
+  .news,
+  .faq,
+  .techSupport,
+  .catalogLine,
+  .supportLine,
+  .mainScreenLine,
+  .personalAccountLine {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+
+  .vidText,
+  .greyLine,
+  .newsText,
+  .faqText,
+  .techSupportText,
+  .waste {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .vidText{
+    font-size: 35px;
+  }
+
+  .catalog,
+  .mainScreen {
+    margin-top: -1%;
+    margin-bottom: 2%;
+  }
+
+  .videos {
+    margin-top: 380px;
+    height: fit-content;
+  }
+
+  .news {
+    margin-top: 1%;
+  }
+
+  .faq {
+    margin-top: 0%;
+  }
+
+  .techSupport {
+    margin-top: 0%;
+  }
+
+  .wasteBottom {
+    display: none;
+  }
+
+  .personalAccountText{
+    width: 140px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 22px;
+    margin-left: -5px;
+    font-size: 20px;
+    text-align: center;
+    display: -webkit-inline-box;
+  }
+
+  .techSupportText{
+    text-align: left;
+  }
+
+  .personalAccountLine{
+    margin-top: 4px;
+    display: block;
+  }
+
+  .personalAccount,  
+  .personalAccountAvatar {
+    margin-top: 2%;
+    margin-bottom: -4%;
+  }
+
+  .support {
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+}
+
+/* Медиазапрос для устройств с минимальной шириной 769px (ШИРОКИЕ экраны) */
+@media only screen and (min-width: 769px) {
+  
+  .personalAccount { 
+    margin-left: 80%;
+    margin-right: auto;
+  }
+
+  .support,
+  .catalog,
+  .mainScreen {
+    width: 16.72%;
+  }
+
+  .supportText,
+  .catalogText,
+  .mainScreenText {
+    font-size: 1vw;
+    width: fit-content;
+  }
+
+  .support { 
+    margin-left: 52%;
+    margin-right: auto;
+  }
+
+  .catalog { 
+    margin-left: 31%;
+    margin-right: auto;
+  }
+
+  .mainScreen { 
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+  .header,
+  .news,
+  .faq,
+  .techSupport {
+    margin-left: 12%;
+    margin-right: auto;
+  }
+
+  .header,
+  .mainScreen,
+  .catalog,
+  .support,
+  .personalAccount,
+  .mainScreenLine,
+  .catalogLine,
+  .supportLine,
+  .mainScreenPic,
+  .catalogPic,
+  .personalAccountAvatar
+  .logo {
+    max-width: -webkit-fill-available;
+  }
+
+  .header{
+    width: 83%;
+  }
+
+  .logo{
+    width: 19%;
+    margin-right: 12%;
+    margin-top: -200px;
+    margin-left: 0px;
+  }
+
+  .news,
+  .faq,
+  .techSupport {
+    width: 22%;
+    height: 206px;
+  }
+
+  .vidText,
+  .newsText,
+  .faqText,
+  .techSupportText {
+    font-size: 2vw;
+    width: fit-content;
+  }
+
+
+  .videos {
+    margin-left: 35%;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .vidOne,
+  .vidTwo,
+  .vidThree,
+  .vidFour {
+    width: 24vw;
+    max-width: 100%;
+    height: 240px;
+    max-height: fit-content;
+  }
+
+  .waste,
+  .wasteBottom {
+    width: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+
+}
