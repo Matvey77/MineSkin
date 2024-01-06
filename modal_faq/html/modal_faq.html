@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FAQ</title>
+    <link rel="stylesheet" href="../css/modal_faq.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="open-modal-faq-btn" id="open-modal-faq-btn">FAQ</button>
+    </div>
+    <div class="modal-faq" id="modal-faq">
+      <div class="modal-faq__box" id="modal-faq__box">
+        <button
+          class="close-modal-faq-btn"
+          id="close-modal-faq-btn"
+          type="button"
+        ></button>
+        <div class="question1" onclick="toggleAnswer(this)">
+          <img
+            class="img-question"
+            src="../images/question.png"
+            alt="Иконка вопроса"
+          />
+          <h3>Кто мы</h3>
+          <p>Команда разработчиков бла бла...</p>
+          <img
+            class="img-answer"
+            src="../images/answer.png"
+            alt="Иконка ответа"
+          />
+        </div>
+      </div>
+    </div>
+    <script type="module" defer src="../javascript/index.js"></script>
+  </body>
+</html>
