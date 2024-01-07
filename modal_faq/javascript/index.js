@@ -12,10 +12,18 @@ document.addEventListener("DOMContentLoaded", function () {
     modalFAQ.classList.remove("open");
   }
 
-  function toggleAnswer(faqItem) {
-    faqItem.classList.toggle("active");
-  }
-
   openBtnFAQ.addEventListener("click", openFAQModal);
   closeBtnFAQ.addEventListener("click", closeFAQModal);
+
+  window.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+      closeFAQModal();
+    }
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!modalBoxFAQ.contains(e.target) && e.target !== openBtnFAQ) {
+      closeFAQModal();
+    }
+  });
 });
