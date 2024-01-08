@@ -92,36 +92,45 @@ img{
 .home_page_button{ 
 }
 
-.home_page_button_text{
+.home_page_button_text,
+.home_page_button_text:visited{
     margin-top: 19px;
     margin-left: 29.545%;
     width: 53.03%;
     height: auto;
     float:left;
+    text-decoration:none;
+    color: white;
 }
 
 .catalog_page_button{
     
 }
 
-.catalog_page_button_text{
+.catalog_page_button_text,
+.catalog_page_button_text:visited{
     margin-top: 12px;
     margin-left: 14.393%;
     width: 82.575%;
     height: auto;
     float:left;
+    text-decoration:none;
+    color: white;
 }
 
 .support_page_button{
  
 }
 
-.support_page_button_text{
+.support_page_button_text,
+ support_page_button_text:visited{
     margin-top: 22px;
     margin-left: 26.136%;
     width: 68.181%;
     height: auto;
     float:left;
+    text-decoration:none;
+    color: white;
 }
 
 .bottom_box{
