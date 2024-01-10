@@ -4,7 +4,7 @@
 }
 
 .catalog_card{
-    width: 75.4166%;
+    width: 75.4167%;
     overflow-x: scroll;
     display: flex;
 }
@@ -15,10 +15,11 @@
 
 .catalog_card_page{
     width: 100%;
-    margin: 8px 0 auto 0;
+    margin: 8px auto auto auto;
     display: grid;
     grid-template-columns: 310px 310px 310px;
-    justify-content: space-between;
+    grid-column-gap: 78px;
+    /* justify-content: space-between; */
     grid-row-gap: 48px;
 }
 
