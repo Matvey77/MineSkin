@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Support</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/modal_support.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (color)"
+      href="../css/modal_support_media.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <button id="open-modal-support-btn" class="open-modal-support-btn">
+        FAQ
+      </button>
+    </div>
+    <div id="modal-support" class="modal-support">
+      <div id="modal-support__box" class="modal-support__box">
+        <form action="#" method="post" class="form">
+          <div class="email-panel"></div>
+          <input
+            placeholder="Введите вашу почту"
+            type="text"
+            name="mail"
+            class="email-input"
+            value=""
+            required
+          />
+          <div class="email-icon-container">
+            <img src="../images/knife.png" alt="Иконка" class="icon-knife" />
+          </div>
+          <div class="issue-panel"></div>
+          <label for="issue" class="issue-label"
+            >Распишите вашу проблему ниже:</label
+          >
+          <div class="issue-icon-container">
+            <img src="../images/red_torch.png" alt="Иконка" />
+          </div>
+          <textarea
+            name="issue-text"
+            id="issue"
+            placeholder="У меня сайт лагает, почините!"
+            class="issue-textarea"
+            required
+          ></textarea>
+
+          <img src="../images/exp.png" alt="Иконка" class="left-btn-img" />
+          <button class="submit-button" type="submit">Отправить</button>
+          <img src="../images/exp.png" alt="Иконка" class="rigth-btn-img" />
+        </form>
+      </div>
+    </div>
+    <script type="module" defer src="../javascript/index.js"></script>
+  </body>
+</html>

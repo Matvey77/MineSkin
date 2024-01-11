@@ -136,12 +136,12 @@
     }
     .move_back{
         width: 30px;
-        margin: 226px 10px auto 5px;
+        margin: auto auto auto auto;
     }
     
     .move_next{
         width: 30px;
-        margin: 226px 5px auto 10px;
+        margin: auto auto auto auto;
     } 
 
 }
@@ -160,6 +160,21 @@
     .search_zone_text{
         width: 80%;
     }
+    .direct_move{
+        display: none;
+        width: 40px;
+    }
+    .move_back{
+        display: none;
+        width: 30px;
+        margin: auto auto auto auto;
+    }
+    
+    .move_next{
+        display: none;
+        width: 30px;
+        margin: auto auto auto auto;
+    } 
 }
 
 @media only screen and ( max-width: 375px){
