@@ -235,7 +235,7 @@ img{
     max-width: 1440px;
     display: grid;
     /* grid-template-columns: 288px 877px 280.8px; */
-    grid-template-columns: 20% 61.5% 19%;
+    grid-template-columns: 15vw 61vw 22.7vw;
     color: white;
 }
 
@@ -250,48 +250,56 @@ img{
 }
 
 .undo{
-
+    width: 2.4vw;
 }
 
 .saveSkin{
-
+    width: 4vw;
 }
 
 .downloadSkin{
-
+    width: 4vw;
 }
 
 .redo{
-
+    width: 2.4vw;
 }
 
 .conteinerTools{
     margin-top: 31px;
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 7vw 7vw;
     align-items: center;
-    justify-content: space-evenly;
-    justify-items: end;
+    justify-content: space-between;
+    justify-items: center;
 }
 
 .brush{
-
+    width: 6.71vw;
+    max-width: 79px;
 }
 
 .fillColor{
-    margin-right: 6px;
+    margin-right: 24px;
+    width: 6.71vw;
+    max-width: 79px;
 }
 
 .eraser{
-
+    width: 6.71vw;
+    max-width: 79px;
 }
 
 .pipette{
     margin-top: 7px;
+    width: 7.4vw;
+    margin-right: 24px;
+    max-width: 87px;
 }
 
 .pencil{
-
+    width: 6.71vw;
+    max-width: 79px;
 }
 
 .conteinerTips{
@@ -299,7 +307,7 @@ img{
 }
 
 .hotKeys{
-    font-size: 2.4vw;
+    font-size: 2.1vw;
 }
 
 .smallConteinerForTips{
@@ -428,7 +436,7 @@ img{
 }
 
 .textSettings{
-    font-size: 1.68vw;
+    font-size: 1.98vw;
 }
 
 .BoxSlider{
@@ -436,11 +444,11 @@ img{
 }
 
 .sliderText{
-    font-size: 1.15vw;
+    font-size: 1.45vw;
 }
 
 .slider{
-    width: 14.6vw;
+    width: 20vw;
 }
 
 /*1024 - 1440  unspecified*/
@@ -464,7 +472,7 @@ img{
         width: 100%;
         max-width: 1440px;
         display: grid;
-        grid-template-columns: 288px 877px 280.8px;
+        grid-template-columns: 210px 877px 353px;
         color: white;
     }
 
@@ -480,15 +488,7 @@ img{
         grid-template-columns: 100px 100px;
         align-items: center;
         justify-content: space-evenly;
-        justify-items: end;
-    }
-
-    .fillColor{
-        margin-right: 6px;
-    }
-
-    .pipette{
-        margin-top: 7px;
+        justify-items: center;
     }
 
     .conteinerTips{
@@ -496,7 +496,7 @@ img{
     }
     
     .hotKeys{
-        font-size: 35px;
+        font-size: 25px;
     }
     
     .smallConteinerForTips{
@@ -573,6 +573,9 @@ img{
         display: grid;
         grid-template-columns: 140px 140px;
         margin-top: 52px;
+        justify-content: space-between;
+        margin-left: 13px;
+        margin-right: 13px;
     }
 
     .conteinerSettings{
@@ -588,11 +591,50 @@ img{
     }
     
     .sliderText{
-        font-size: 16px;
+        font-size: 22px;
     }
     
     .slider{
-        width: 235px;
+        width: 300px;
+    }
+/**/
+    .undo{
+        width: auto;
+    }
+    
+    .saveSkin{
+        width: auto;
+    }
+    
+    .downloadSkin{
+        width: auto;
+    }
+    
+    .redo{
+        width: auto;
+    }
+    
+    .brush{
+        width: auto;
+    }
+    
+    .fillColor{
+        margin-right: 0px;
+        width: auto;
+    }
+    
+    .eraser{
+        width: auto;
+    }
+    
+    .pipette{
+        margin-top: 7px;
+        width: auto;
+        margin-right: 0px;
+    }
+    
+    .pencil{
+        width: auto;
     }
 
 }
@@ -638,17 +680,7 @@ img{
 
     .conteinerTools{
         justify-items: center;
-        grid-template-columns: 8vw 8vw;
-    }
-
-    .undo,
-    .redo{
-        width: 3.3vw;
-    }
-
-    .saveSkin,
-    .downloadSkin{
-        width: 5.3vw;
+        grid-template-columns: 6vw 6vw;
     }
 
     .brush,
@@ -657,6 +689,12 @@ img{
     .pipette,
     .pencil{
         width: 7.71vw;
+        max-width: 71px;
+    }
+
+    .pipette{
+        max-width: 78px;
+        width: 8.5vw;
     }
 
     .zoom{
@@ -695,13 +733,30 @@ img{
     }
 
     .zoom{
-        margin-top: -101px;
-        padding-bottom: 60px;
+        margin-top: -171px;
+        padding-bottom: 119px;
         margin-left: 20vw;
     }
 
     .percentage{
         font-size: 16px;
+    }
+
+    .conteinerUpperTools{
+        width: auto;
+        display: grid;
+        grid-template-columns: 6.4vw;
+    }
+
+    .undo,
+    .redo{
+        width: 4.6vw;
+        max-height: 60px;
+    }
+
+    .saveSkin,
+    .downloadSkin{
+        width: 6vw;
     }
 
     .conteinerTools{
@@ -715,6 +770,7 @@ img{
     .pipette{
         width: 14.71vw;
         margin-bottom: -5px;
+        margin-right: 0px;
     }
 
     .brush,
