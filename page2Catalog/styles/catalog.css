@@ -1,0 +1,99 @@
+.catalog{
+    display: flex;
+    flex-direction: row;
+}
+
+.catalog_card{
+    width: 1086px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.catalog_card::-webkit-scrollbar{
+    display: none;
+}
+
+.catalog_page{
+   width: 100%;
+   display: flex;
+   grid-template-columns: 310px 310px 310px;
+   justify-content: space-between;
+   grid-gap: 48px;
+   flex: none;
+}
+
+
+
+.card_skin{
+    display: inline-block;
+    background-color: #9CB499;
+    height: 387px;
+}
+
+.card_skin_main{
+    height: 319px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.like_skin{
+    width: 43px;
+    height: 43px;
+    margin-top: 270px;
+}
+
+.skin{
+    width: 128px;
+    height: 310px;
+    margin-top: 9px;
+}
+
+.save_skin{
+    margin-top: 246px;
+    width: 40px;
+    height: 59px;
+}
+
+.card_skin_footer{
+    background:#201C33;
+    height:68px;
+    display: flex;
+    direction: row;
+    align-items: center;
+}
+
+.card_skin_footer_profile{
+    width: 40px;
+    height: 40px;
+    margin-left: 17px;
+}
+
+.card_skin_footer_nickname{
+    font-family: "Press Start 2P";
+    font-size: 15px;
+    margin-left: 10px;
+    color: white;
+}
+
+@media only screen and ( max-width: 1280px){
+    .catalog_card{
+        grid-template-columns: 310px 310px;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and ( max-width: 1024px){
+    .catalog_card{
+        grid-template-columns: 310px 310px;
+        margin: 8px auto auto auto;
+        width: 85%;
+    }
+}
+
+@media only screen and ( max-width: 768px){
+    .catalog_card{
+        margin: 56px auto auto auto;
+        justify-content: center;
+        grid-template-columns: 310px;
+    }
+}
