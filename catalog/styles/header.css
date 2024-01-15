@@ -17,7 +17,7 @@ html {
 
   body {
     min-height: 100%;
-    background-color: #9d9d9d;
+    background-color: #86809a;
   }
 
 img{
@@ -213,6 +213,14 @@ img{
 }
 
 @media only screen and ( max-width: 375px){
+    .header{
+        margin-top: 0;
+        position: fixed;
+        opacity: 1;
+    }
+    .logo{
+        display: none;
+    }
     .main_menu{
         margin-left: 12%;
         width: auto;

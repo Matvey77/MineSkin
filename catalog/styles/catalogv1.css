@@ -83,7 +83,41 @@
 
 @media only screen and ( max-width: 1024px){
     .catalog_card_page{
-        grid-template-columns: 276px 276px;
+        grid-template-columns: 190px 190px 190px;
+        justify-content: space-around;
+    }
+    .card_skin{
+        height: 271px;
+    }
+    .card_skin_main{
+        height: 225px;
+    }
+    .like_skin{
+        width: 30px;
+        height: 30px;
+        margin-top: 190px;
+    }
+    .skin{
+        width: 88px;
+        height: 214px;
+        margin-top: 11px;
+    }
+    .save_skin{
+        margin-top: 180px;
+        width: 27px;
+        height: 40px;
+    }
+    .card_skin_footer{
+        height:46px;
+    }
+    .card_skin_footer_profile{
+        width: 30px;
+        height: 30px;
+        margin-left: 8px;
+    }
+    .card_skin_footer_nickname{
+        font-size: 10px;
+        margin-left: 10px;
     }
 }
 
@@ -92,17 +126,56 @@
         justify-content: center;
     }
     .catalog_card{
+        width: 100%;
         flex-direction: column;
     }
     .catalog_card_page{
         margin: 56px auto auto auto;
-        justify-content: center;
-        grid-template-columns: 310px;
+        grid-template-columns: 180px 180px;
+        justify-content: space-around;
     }
 }
 
 @media only screen and ( max-width: 375px){
+    .catalog{
+        margin-top: 110px;
+    }
     .catalog_card_page{
-        grid-template-columns: 276px;
+        grid-template-columns: 143px 143px;
+        justify-content: space-around;
+    }
+    .card_skin{
+        height: 179px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    }
+    .card_skin_main{
+        height: 148px;
+    }
+    .like_skin{
+        width: 20px;
+        height: 20px;
+        margin-top: 125px;
+    }
+    .skin{
+        width: 59px;
+        height: 143px;
+        margin-top: 5px;
+    }
+    .save_skin{
+        margin-top: 114px;
+        width: 18px;
+        height: 27px;
+    }
+    .card_skin_footer{
+        height:31px;
+    }
+    .card_skin_footer_profile{
+        width: 20px;
+        height: 20px;
+        margin-left: 8px;
+    }
+    .card_skin_footer_nickname{
+        font-size: 7px;
+        margin-left: 10px;
     }
 }

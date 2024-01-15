@@ -178,9 +178,19 @@
 }
 
 @media only screen and ( max-width: 375px){
+    .search_tool{
+        margin-top: 0;
+        opacity: 1;
+    }
+    .tool{
+        margin-top: 110px;
+    }
     .search{
         width: 353px;
         margin-top: 8px;
         margin-left: 0;
+    }
+    .search_zone_text{
+        opacity: 1;
     }
 }
