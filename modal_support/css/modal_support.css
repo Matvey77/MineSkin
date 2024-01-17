@@ -79,7 +79,11 @@
   font-size: 28px;
   font-family: "Press Start 2P";
   color: rgb(0, 0, 0, 0.6);
-  border: 0;
+  border: none;
+  text-align: start;
+  text-indent: 17px;
+  padding-inline-end: 100px;
+  outline-color: #000;
   z-index: 4;
 }
 .email-icon-container {
@@ -93,7 +97,7 @@
   left: 35px;
   top: 171px;
   max-width: 697px;
-  max-height: 509px;
+  max-height: 601px;
   width: 100%;
   height: 100%;
   background-color: #7c89a2;
@@ -112,10 +116,10 @@
 }
 .issue-textarea {
   position: absolute;
-  left: 61px;
+  left: 60px;
   top: 225px;
   max-width: 646px;
-  max-height: 423px;
+  max-height: 521px;
   width: 100%;
   height: 100%;
   font-size: 20px;
@@ -123,7 +127,12 @@
   color: #000;
   border: 0;
   padding-top: 21px;
-  padding-left: 45px;
+  padding-left: 14px;
+  padding-right: 14px;
+  outline-color: #000;
+  text-indent: 36px;
+  line-height: 1.5;
+  resize: none;
   z-index: 3;
 }
 .issue-icon-container {
@@ -132,10 +141,14 @@
   top: 232px;
   z-index: 4;
 }
+.form .issue-textarea:focus ~ .issue-icon-container {
+  display: none;
+}
 .left-btn-img {
   position: absolute;
   left: 153px;
   top: 692px;
+  display: none;
 }
 .submit-button {
   position: absolute;
@@ -151,9 +164,11 @@
   color: #fbff48;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+  display: none;
 }
 .rigth-btn-img {
   position: absolute;
   left: 525px;
   top: 692px;
+  display: none;
 }

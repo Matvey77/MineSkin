@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url(modal_faq_media.css) screen and (color);
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -106,17 +107,18 @@
   max-height: 59px;
   width: 100%;
   height: 100%;
+  align-self: flex-end;
   z-index: 2;
 }
 .faq__title {
   margin: 69px 190px 0 18px;
   display: block;
+  width: 100%;
   color: #fff;
   font-family: "Press Start 2P";
   font-size: 32px;
   font-weight: normal;
   text-align: center;
-  margin: none;
   z-index: 2;
 }
 .faq__input {
@@ -144,6 +146,7 @@
 .answer-text {
   margin: 52px 40px 0 95px;
   max-width: 560px;
+  width: 100%;
   color: #fff;
   font-family: "Press Start 2P";
   font-size: 24px;
@@ -166,6 +169,7 @@
   max-height: 56px;
   width: 100%;
   height: 100%;
+  align-self: flex-end;
   z-index: 2;
 }
 .horizontal-line {
