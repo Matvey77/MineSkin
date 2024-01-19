@@ -1,0 +1,98 @@
+.conteinerDrawing{
+
+}
+
+.drawingBackground{
+    height: 970px;
+}
+
+.skin{
+    margin-top: -883px;
+    padding-bottom: 260px;
+}
+
+.zoom{
+    margin-top: -9.7vw;
+    padding-bottom: 7.47vw;
+    margin-left: 35.49vw;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.glass{
+
+}
+
+.percentage{
+    color: #E9E000;
+    margin-left: 10px;
+}
+
+@media only screen and ( min-width: 1440px){
+    
+    .drawingBackground{
+        height: 970px;
+    }
+    
+    .skin{
+        margin-top: -883px;
+        padding-bottom: 260px;
+    }
+    
+    .zoom{
+        margin-top: -124px;
+        padding-bottom: 120px;
+        margin-left: 570px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .percentage{
+        color: #E9E000;
+        margin-left: 10px;
+    }
+    
+    .textColor{
+        font-size: 26px;
+    }
+
+}
+
+@media only screen and ( max-width: 1024px){
+    .percentage{
+        font-size: 3vw;
+    }
+
+    .zoom{
+        margin-top: -13.7vw;
+    }
+
+    .textColor{
+        display: none;
+    }
+
+}
+
+@media only screen and ( max-width: 768px){
+    .zoom{
+        margin-top: -171px;
+        padding-bottom: 119px;
+        margin-left: 20vw;
+    }
+
+    .percentage{
+        font-size: 16px;
+    }
+
+    .skin{
+        width: 40.6vw;
+    }
+}
+
+@media only screen and ( max-width: 375px){
+
+}

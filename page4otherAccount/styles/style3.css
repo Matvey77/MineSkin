@@ -129,7 +129,8 @@
 
 .skinConteiner{
     margin-left: 27px;
-    margin-right: 2vw;
+    margin-right: 15px;
+    display: inline-block;
 }
 
 .skinPreview{
@@ -146,7 +147,6 @@
 .skinWidth{
     width: 8.92vw;
     margin-left: 1.4vw;
-    height: 310px;
     margin-bottom: -4vw;
 }
 
@@ -322,7 +322,6 @@
     .skinWidth{
         width: 128px;
         margin-left: 20px;
-        height: 310px;
         margin-bottom: -64px;
     }
     

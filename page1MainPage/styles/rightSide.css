@@ -1,0 +1,135 @@
+.conteinerRightSide{
+
+}
+
+.textBrush{
+    font-size: 3vw;
+}
+
+.conteinerFix{
+    margin-top: 30px;
+}
+
+.conteinerColors{
+    margin-top: 24px;
+}
+
+.textColor{
+    font-size: 1.62vw;
+}
+
+.palette{
+    width: 13.44vw;
+    margin-top: 10px;
+}
+
+.conteinerValueOfColor{
+    display: grid;
+    margin-top: 52px;
+    justify-content: center;
+}
+
+.rgb{
+
+}
+
+.hex{
+
+}
+
+.conteinerSettings{
+    font-size: 1.9vw;
+    margin-top: 10px;
+}
+
+.textSettings{
+    font-size: 1.98vw;
+}
+
+.BoxSlider{
+    margin-top: 32px;
+}
+
+.sliderText{
+    font-size: 1.45vw;
+}
+
+.slider{
+    width: 20vw;
+}
+
+@media only screen and ( min-width: 1440px){
+
+    .textBrush{
+        font-size: 41px;
+    }
+    
+    .conteinerFix{
+        margin-top: 30px;
+    }
+    
+    .conteinerColors{
+        margin-top: 24px;
+    }
+    
+    .textColor{
+        font-size: 26px;
+    }
+    
+    .palette{
+        margin-top: 31px;
+        width: 218px;
+    }
+    
+    .conteinerValueOfColor{
+        display: grid;
+        grid-template-columns: 140px 140px;
+        margin-top: 52px;
+        justify-content: space-between;
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+
+    .conteinerSettings{
+        margin-top: 80px;
+    }
+    
+    .textSettings{
+        font-size: 27px;
+    }
+    
+    .BoxSlider{
+        margin-top: 32px;
+    }
+    
+    .sliderText{
+        font-size: 22px;
+    }
+    
+    .slider{
+        width: 300px;
+    }
+}
+
+@media only screen and ( max-width: 1024px){
+
+   .sliderText{
+        font-size: 1.31vw;
+    }
+}
+
+@media only screen and ( max-width: 768px){
+    .textSettings{
+        display: none;
+    }
+
+    .sliderText{
+        font-size: 2.51vw;
+        word-break: break-all;
+    }
+
+}
+
+@media only screen and ( max-width: 375px){
+
+}
