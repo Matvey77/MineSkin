@@ -243,4 +243,10 @@ img{
         height: 70px;
         justify-content: start;
     }
+
+    .conteiner{
+        z-index: 1;
+        padding-bottom: 105px;
+    }
+
 }
