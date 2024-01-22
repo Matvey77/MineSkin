@@ -122,7 +122,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+<<<<<<< HEAD
     margin-left: 8px;
+=======
+    margin-left: 22px;
+>>>>>>> origin/Catalog
     margin-top: 68px;
 }
 
@@ -133,6 +137,7 @@
 }
 
 .skinPreview{
+<<<<<<< HEAD
     display: flex;
     background-color: #6d456d;
     margin-top: 28px;
@@ -145,10 +150,21 @@
     margin-left: 1.25vw;
     margin-bottom: 11px;
     margin-top: 270px;
+=======
+    background-color: #6d456d;
+    margin-top: 28px;
+}
+
+.heartWidth{
+    width: 3vw;
+    margin-left: 1vw;
+    margin-bottom: -5vw;
+>>>>>>> origin/Catalog
 }
 
 .skinWidth{
     width: 128px;
+<<<<<<< HEAD
     height: 310px;
     margin-left: 1.5vw;
     margin-bottom: 0px;
@@ -160,6 +176,15 @@
     margin-left: 2vw;
     width: 40px;
     height: 59px;
+=======
+    margin-left: 5px;
+    margin-bottom: -4vw;
+}
+
+.saveWidth{
+    margin-left: 17vw;
+    width: 3vw;  
+>>>>>>> origin/Catalog
 }
 
 .skinBottom{
@@ -183,11 +208,15 @@
 }
 
 
+<<<<<<< HEAD
 /*
 
 1240 - 1440  unspecified
 
 */
+=======
+/*1024 - 1440  unspecified*/
+>>>>>>> origin/Catalog
 
 @media only screen and ( min-width: 1440px){
     .bothConteiners{
@@ -321,19 +350,28 @@
     .skinPreview{
         background-color: #6d456d;
         margin-top: 28px;
+<<<<<<< HEAD
         height: 319px;
+=======
+>>>>>>> origin/Catalog
     }
     
     .heartWidth{
         width: 43px;
+<<<<<<< HEAD
         height: 43px;
         margin-left: 18px;
         margin-bottom: 11px;
         margin-top: 270px;
+=======
+        margin-left: 20px;
+        margin-bottom: -58px;
+>>>>>>> origin/Catalog
     }
     
     .skinWidth{
         width: 128px;
+<<<<<<< HEAD
         height: 310px;
         margin-left: 20px;
         margin-bottom: 0px;
@@ -345,6 +383,15 @@
         margin-left: 33px;
         width: 40px;
         height: 59px;
+=======
+        margin-left: 20px;
+        margin-bottom: -64px;
+    }
+    
+    .saveWidth{
+        width: 40px;
+        margin-left: 243px;    
+>>>>>>> origin/Catalog
     }
     
     .skinBottom{
@@ -366,6 +413,7 @@
 
 }
 
+<<<<<<< HEAD
 @media only screen and ( max-width: 1240px){
     .skinPreview{
         display: flex;
@@ -402,10 +450,14 @@
         grid-template-columns: 0.3fr 1fr;  
     }
 
+=======
+@media only screen and ( max-width: 1024px){
+>>>>>>> origin/Catalog
     .conteinerOther{
         grid-template-columns: 1fr 1fr;
     }
 
+<<<<<<< HEAD
     .skinPreview{
         display: flex;
         background-color: #6d456d;
@@ -454,6 +506,24 @@
     .saveWidth{
         width: auto;
         margin-left: 0px;
+=======
+    .heartWidth{
+        width: 4vw;
+        margin-left: 1vw;
+        margin-bottom: -6vw;
+    }
+
+    .skinWidth{
+        width: 12.92vw;
+        margin-left: 4vw;
+        margin-bottom: -4vw;
+        margin-top: 9px;
+    }
+
+    .saveWidth{
+        margin-left: 27vw;
+        width: 4vw;
+>>>>>>> origin/Catalog
     }
     
     .bigButtonText{
@@ -469,6 +539,7 @@
     }
 
     .heartWidth{
+<<<<<<< HEAD
         width: 100px;
         height: 100px;
         margin-left: 0vw;
@@ -481,6 +552,22 @@
         height: 140px;
         margin-left: 0px;
         margin-top: 175px;
+=======
+        width: 17vw;
+        margin-left: 2vw;
+        margin-bottom: -25vw;
+    }
+
+    .skinWidth{
+        width: 22.92vw;
+        margin-left: 16vw;
+        margin-bottom: -21vw
+    }
+
+    .saveWidth{
+        margin-left: 71.3vw;
+        width: 17vw;
+>>>>>>> origin/Catalog
     }
 
     .small_profile_page_button{
@@ -533,6 +620,7 @@
 
 }
 
+<<<<<<< HEAD
 @media only screen and ( max-width: 500px){
     .heartWidth{
         width: 70px;
@@ -550,6 +638,8 @@
     }
 }
 
+=======
+>>>>>>> origin/Catalog
 @media only screen and ( max-width: 375px){
 
 }

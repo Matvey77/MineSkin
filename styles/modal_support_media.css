@@ -1,4 +1,5 @@
 @media (max-width: 767px) {
+<<<<<<< HEAD
   .modal-support__box {
     position: relative;
     margin: auto auto;
@@ -80,4 +81,6 @@
     max-height: 23px;
     background: url("../images/sm_send.png");
   }
+=======
+>>>>>>> origin/Catalog
 }
