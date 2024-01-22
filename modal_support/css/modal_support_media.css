@@ -1,2 +1,83 @@
 @media (max-width: 767px) {
+  .modal-support__box {
+    position: relative;
+    margin: auto auto;
+    max-width: 320px;
+    max-height: 385px;
+  }
+  .close-modal-support-btn {
+    left: 299px;
+    top: 0px;
+    max-width: 19px;
+    max-height: 16px;
+    background: url("../images/sm_close.png");
+  }
+  .email-panel {
+    left: 16px;
+    top: 25px;
+    max-width: 288px;
+    max-height: 39px;
+  }
+  .email-input {
+    left: 23px;
+    top: 33px;
+    max-width: 274px;
+    max-height: 24px;
+    font-size: 12px;
+    text-indent: 9px;
+    padding-inline-end: 36px;
+  }
+  .email-icon-container {
+    left: 265px;
+    top: 37px;
+  }
+  .icon-knife {
+    max-height: 17px;
+  }
+  .issue-panel {
+    left: 16px;
+    top: 75px;
+    max-width: 288px;
+    max-height: 296px;
+  }
+  .issue-icon2-container {
+    left: 30px;
+    top: 75px;
+  }
+  .issue-icon2-container img {
+    max-width: 13px;
+    max-height: 12px;
+  }
+  .issue-label {
+    left: 49px;
+    top: 80px;
+    font-size: 8px;
+  }
+  .issue-textarea {
+    left: 25px;
+    top: 95px;
+    max-width: 270px;
+    max-height: 268px;
+    font-size: 8px;
+    padding-top: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-indent: 18px;
+    line-height: 1.5;
+  }
+  .issue-icon-container {
+    left: 31px;
+    top: 101px;
+  }
+  .issue-icon-container img {
+    max-width: 11px;
+    max-height: 19px;
+  }
+  .send-btn {
+    left: 275px;
+    top: 335px;
+    max-width: 15px;
+    max-height: 23px;
+    background: url("../images/sm_send.png");
+  }
 }
