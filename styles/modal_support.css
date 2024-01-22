@@ -57,12 +57,24 @@
   transition: transform 0.8s;
   z-index: 1;
 }
+.close-modal-support-btn {
+  position: absolute;
+  left: 727px;
+  top: 0px;
+  max-width: 41px;
+  max-height: 34px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  background: url("../images/close.png");
+}
 .email-panel {
   position: absolute;
   left: 35px;
-  top: 24px;
+  top: 41px;
   max-width: 697px;
-  max-height: 114px;
+  max-height: 99px;
   width: 100%;
   height: 100%;
   background-color: #7c89a2;
@@ -70,39 +82,51 @@
 }
 .email-input {
   position: absolute;
-  left: 61px;
-  top: 53px;
+  left: 54px;
+  top: 62px;
   max-width: 646px;
   max-height: 57px;
   width: 100%;
   height: 100%;
   font-size: 28px;
   font-family: "Press Start 2P";
-  color: rgb(0, 0, 0, 0.6);
-  border: 0;
+  color: rgb(0, 0, 0, 1);
+  border: none;
+  text-align: start;
+  text-indent: 17px;
+  padding-inline-end: 80px;
+  outline-color: #000;
   z-index: 4;
 }
 .email-icon-container {
   position: absolute;
-  left: 619px;
-  top: 63px;
+  left: 626px;
+  top: 71px;
   z-index: 4;
 }
 .issue-panel {
   position: absolute;
   left: 35px;
-  top: 171px;
+  top: 164px;
   max-width: 697px;
-  max-height: 509px;
+  max-height: 601px;
   width: 100%;
   height: 100%;
   background-color: #7c89a2;
   z-index: 2;
 }
+.issue-icon2-container {
+  position: absolute;
+  left: 63px;
+  top: 169px;
+  max-width: 41px;
+  max-height: 38px;
+  z-index: 4;
+}
 .issue-label {
   position: absolute;
-  left: 71px;
-  top: 192px;
+  left: 117px;
+  top: 182px;
   font-size: 20px;
   font-family: "Press Start 2P";
   color: #ffffff;
@@ -112,48 +136,43 @@
 }
 .issue-textarea {
   position: absolute;
-  left: 61px;
-  top: 225px;
+  left: 60px;
+  top: 219px;
   max-width: 646px;
-  max-height: 423px;
+  max-height: 521px;
   width: 100%;
   height: 100%;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Press Start 2P";
   color: #000;
   border: 0;
   padding-top: 21px;
-  padding-left: 45px;
+  padding-left: 14px;
+  padding-right: 14px;
+  outline-color: #000;
+  text-indent: 36px;
+  line-height: 1.5;
+  resize: none;
   z-index: 3;
 }
 .issue-icon-container {
   position: absolute;
   left: 71px;
-  top: 232px;
+  top: 228px;
   z-index: 4;
 }
-.left-btn-img {
-  position: absolute;
-  left: 153px;
-  top: 692px;
+.form .issue-textarea:focus ~ .issue-icon-container {
+  display: none;
 }
-.submit-button {
+.send-btn {
   position: absolute;
-  left: 261px;
-  top: 703px;
-  max-width: 245px;
-  max-height: 69px;
+  left: 668px;
+  top: 685px;
+  max-width: 29px;
+  max-height: 45px;
   width: 100%;
   height: 100%;
-  background-color: #7c89a2;
-  font-size: 20px;
-  font-family: "Press Start 2P";
-  color: #fbff48;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-.rigth-btn-img {
-  position: absolute;
-  left: 525px;
-  top: 692px;
+  background: url("../images/send.png");
+  border: none;
+  z-index: 4;
 }

@@ -8,17 +8,21 @@
     <link
       rel="stylesheet"
       media="screen and (color)"
-      href="../css/modal_support_media.css"
+      href="../styles/modal_support_media.css"
     />
   </head>
   <body>
     <div class="container">
       <button id="open-modal-support-btn" class="open-modal-support-btn">
-        FAQ
+        Тех. Поддержка
       </button>
     </div>
     <div id="modal-support" class="modal-support">
       <div id="modal-support__box" class="modal-support__box">
+        <button
+          class="close-modal-support-btn"
+          id="close-modal-support-btn"
+        ></button>
         <form action="#" method="post" class="form">
           <div class="email-panel"></div>
           <input
@@ -33,6 +37,9 @@
             <img src="../images/knife.png" alt="Иконка" class="icon-knife" />
           </div>
           <div class="issue-panel"></div>
+          <div class="issue-icon2-container">
+            <img src="../images/book.png" alt="Иконка" />
+          </div>
           <label for="issue" class="issue-label"
             >Распишите вашу проблему ниже:</label
           >
@@ -46,13 +53,10 @@
             class="issue-textarea"
             required
           ></textarea>
-
-          <img src="../images/exp.png" alt="Иконка" class="left-btn-img" />
-          <button class="submit-button" type="submit">Отправить</button>
-          <img src="../images/exp.png" alt="Иконка" class="rigth-btn-img" />
+          <button class="send-btn" type="submit"></button>
         </form>
       </div>
     </div>
-    <script type="module" defer src="../javascript/index.js"></script>
+    <script type="module" defer src="../javascripts/support.js"></script>
   </body>
 </html>
