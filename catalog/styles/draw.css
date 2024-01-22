@@ -1,0 +1,105 @@
+.conteinerDrawing{
+    position: relative;
+    background:
+    url(../img/drawingBackground.png) center ,
+    rebeccapurple;
+}
+
+.drawingBackground{
+    
+}
+
+.object_on_draw{
+    margin-top: 50px;
+}
+
+.skin{
+    display: inline-block;
+    
+}
+
+.zoom{
+    margin-left: 75%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.glass{
+
+}
+
+.percentage{
+    color: #E9E000;
+    margin-left: 10px;
+}
+
+/* @media only screen and ( min-width: 1440px){
+    
+    .drawingBackground{
+        height: 970px;
+    }
+    
+    .skin{
+        margin-top: -883px;
+        padding-bottom: 260px;
+    }
+    
+    .zoom{
+        margin-top: -124px;
+        padding-bottom: 120px;
+        margin-left: 570px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .percentage{
+        color: #E9E000;
+        margin-left: 10px;
+    }
+    
+    .textColor{
+        font-size: 26px;
+    }
+
+} */
+
+@media only screen and ( max-width: 1024px){
+    .textColor{
+        display: none;
+    }
+    .glass{
+        width: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 820px){
+    #picker{
+        display: none;
+    }
+}
+
+@media only screen and ( max-width: 768px){
+    .skin{
+        width: 40.6vw;
+    }
+    .zoom{
+        margin-left: 60%;
+    }
+    .glass{
+        margin-left: 5px;
+        width: 30px;
+    }
+    .percentage{
+        font-size: 10px;
+        -webkit-text-stroke: 0;
+    }
+}
+
+@media only screen and ( max-width: 375px){
+
+}

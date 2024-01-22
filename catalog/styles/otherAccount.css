@@ -1,0 +1,457 @@
+.back {
+    width: 100%;
+    height: 100%;
+  }
+
+.bothConteiners{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    position: relative;
+    max-width: 1440px;
+    min-height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.sideContent{
+    font-family: "Press Start 2P";
+    color: white;
+    font-size: 1.389vw;
+    text-align: center;
+    background: #1a142e;
+    -webkit-text-stroke: 0.7px #000000;
+    opacity: 0.9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    width: 24vw;
+    height: auto;
+    margin-top: 68px;
+}
+
+.myAvatar{
+    margin-top: 31px;
+    display: inline-flex;
+}
+
+.settingsButton{
+    background: #7C89A2;
+    border: 0.2px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    height: auto;
+    width: fit-content;
+    margin-top: 23px;
+    margin-inline: auto;
+}
+
+.bigButtonText{
+    font-size: 25px;
+}
+
+.exitButton{
+    background: #7C89A2;
+    border: 0.2px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    height: auto;
+    width: fit-content;
+    margin-top: 12px;
+    margin-inline: auto;
+    display: none;
+}
+
+.stats{
+    background: #7C89A2;
+    border: 0.2px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    height: auto;
+    width: 93%;
+    margin-top: 35px;
+    margin-inline: auto;
+}
+
+.statBlock{
+    display: inline-grid;
+}
+
+.statNumber{
+    color: #E9E000;
+    font-size: 24px;
+    margin-top: 21px;
+}
+
+.statText{
+    font-size: 12px;
+    margin-bottom: 43px;
+}
+
+.sideButtons{
+    margin-top: 21px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 29px;
+    font-size: 20px;
+}
+
+.smallButton{
+    background: #7C89A2;
+    border: 0.2px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    height: 27px;
+    width: 159px;
+    margin-top: 19px;
+    margin-inline: auto;
+}
+
+.smallButtonText{
+    font-size: 12px;
+}
+   
+.conteinerOther{
+    color: white;
+    position: relative;
+    background: #1a142e;
+    -webkit-text-stroke: 0.7px #000000;
+    opacity: 0.9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 22px;
+    margin-top: 68px;
+}
+
+.skinConteiner{
+    margin-left: 27px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.skinPreview{
+    background-color: #6d456d;
+    margin-top: 28px;
+}
+
+.heartWidth{
+    width: 3vw;
+    margin-left: 1vw;
+    margin-bottom: -5vw;
+}
+
+.skinWidth{
+    width: 8.92vw;
+    margin-left: 1.4vw;
+    margin-bottom: -4vw;
+}
+
+.saveWidth{
+    margin-left: 17vw;
+    width: 3vw;  
+}
+
+.skinBottom{
+    height: 68px;
+    background-color: #918691;
+    display: flex;
+    align-items: center;
+}
+
+.small_profile_page_button{
+    width: 44px; 
+}
+
+.AuthorName,
+.AuthorName:visited{
+    margin-left: 12px;
+    font-size: 1.3vw;
+    font-family: 'Press Start 2P';
+    text-decoration:none;
+    color: white;
+}
+
+
+
+/*1024 - 1440  unspecified*/
+
+@media only screen and ( min-width: 1440px){
+    .bothConteiners{
+        display: grid;
+        grid-template-columns: auto auto;
+        color: white;
+        position: relative;
+        max-width: 1440px;
+        min-height: 100%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    
+    .sideContent{
+        font-family: "Press Start 2P";
+        color: white;
+        font-size: 1.389vw;
+        text-align: center;
+        background: #1a142e;
+        -webkit-text-stroke: 0.7px #000000;
+        opacity: 0.9;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        position: relative;
+        width: 366px;
+        height: auto;
+        margin-top: 68px;
+    }
+    
+    .myAvatar{
+        margin-top: 31px;
+        display: inline-flex;
+    }
+    
+    .settingsButton{
+        background: #7C89A2;
+        border: 0.2px solid black;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        position: relative;
+        height: auto;
+        width: fit-content;
+        margin-top: 23px;
+        margin-inline: auto;
+    }
+    
+    .bigButtonText{
+        font-size: 2.1;
+    }
+    
+    .exitButton{
+        background: #7C89A2;
+        border: 0.2px solid black;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        position: relative;
+        height: auto;
+        width: fit-content;
+        margin-top: 12px;
+        margin-inline: auto;
+    }
+    
+    .stats{
+        background: #7C89A2;
+        border: 0.2px solid black;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        position: relative;
+        height: auto;
+        width: 93%;
+        margin-top: 35px;
+        margin-inline: auto;
+    }
+    
+    .statBlock{
+        display: inline-grid;
+    }
+    
+    .statNumber{
+        color: #E9E000;
+        font-size: 24px;
+        margin-top: 21px;
+    }
+    
+    .statText{
+        font-size: 12px;
+        margin-bottom: 43px;
+    }
+    
+    .sideButtons{
+        margin-top: 21px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 29px;
+        font-size: 20px;
+    }
+    
+    .smallButton{
+        background: #7C89A2;
+        border: 0.2px solid black;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        position: relative;
+        height: 27px;
+        width: 159px;
+        margin-top: 19px;
+        margin-inline: auto;
+    }
+    
+    .smallButtonText{
+        font-size: 12px;
+    }
+       
+    .conteinerOther{
+        color: white;
+        position: relative;
+        background: #1a142e;
+        -webkit-text-stroke: 0.7px #000000;
+        opacity: 0.9;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 22px;
+        margin-top: 68px;
+    }
+    
+    .skinConteiner{
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+    
+    .skinPreview{
+        background-color: #6d456d;
+        margin-top: 28px;
+    }
+    
+    .heartWidth{
+        width: 43px;
+        margin-left: 20px;
+        margin-bottom: -58px;
+    }
+    
+    .skinWidth{
+        width: 128px;
+        margin-left: 20px;
+        margin-bottom: -64px;
+    }
+    
+    .saveWidth{
+        width: 40px;
+        margin-left: 243px;    
+    }
+    
+    .skinBottom{
+        height: 68px;
+        background-color: #918691;
+        display: flex;
+        align-items: center;
+    }
+    
+    .small_profile_page_button{
+        width: 44px;
+    }
+    
+    .AuthorName{
+        margin-left: 12px;
+        font-size: 20px;
+        font-family: 'Press Start 2P';
+    }
+
+}
+
+@media only screen and ( max-width: 1024px){
+    .conteinerOther{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .heartWidth{
+        width: 4vw;
+        margin-left: 1vw;
+        margin-bottom: -6vw;
+    }
+
+    .skinWidth{
+        width: 12.92vw;
+        margin-left: 4vw;
+        height: 310px;
+        margin-bottom: -4vw;
+    }
+
+    .saveWidth{
+        margin-left: 27vw;
+        width: 4vw;
+    }
+    
+    .bigButtonText{
+        font-size: 2.1vw;
+    }
+}
+
+@media only screen and ( max-width: 768px){
+    .conteinerOther{
+        grid-template-columns: 1fr;
+        margin-left: 0vw;
+        margin-top: 10px;
+    }
+
+    .heartWidth{
+        width: 17vw;
+        margin-left: 2vw;
+        margin-bottom: -25vw;
+    }
+
+    .skinWidth{
+        width: 22.92vw;
+        margin-left: 16vw;
+        height: 310px;
+        margin-bottom: 0vw;
+    }
+
+    .saveWidth{
+        margin-left: 71.3vw;
+        width: 17vw;
+    }
+
+    .small_profile_page_button{
+        width: 8vw;
+    }
+
+    .AuthorName{   
+        margin-left: 12px;
+        font-size: 6.4vw;
+        font-family: 'Press Start 2P';}
+
+    .statNumber{
+        color: #E9E000;
+        font-size: 4vw;
+        margin-top: 21px;
+    }
+
+    .statText{
+        font-size: 2.3vw;
+        margin-bottom: 33px;
+    }
+
+    .smallButton{
+        margin-right: 0vw;
+        width: 100%;
+        height: 45px;
+    }
+
+    .bothConteiners{
+        grid-template-columns: auto;
+    }
+
+    .sideButtons{
+        display: inline-block;
+    }
+
+    .smallButtonText{
+        font-size: 5.5vw;
+        margin-top: 4.1vw;
+    }
+
+    .sideContent{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .bigButtonText{
+        font-size: 5.6vw;
+    }
+
+}
+
+@media only screen and ( max-width: 375px){
+
+}

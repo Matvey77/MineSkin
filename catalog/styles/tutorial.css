@@ -1,0 +1,307 @@
+.back {
+    width: 100%;
+    height: 100%;
+  }
+
+  .videos {
+    margin-left: 30%;
+    margin-right: auto;
+    width: 70%;
+    height: 760px;
+    background: rgba(38, 34, 56, 1);
+    margin-top: 14px;
+  }
+  
+  /* Видео вставки */
+
+  .conteinerVideos{
+
+  }
+  
+  .vidOne,
+  .vidTwo,
+  .vidThree,
+  .vidFour {
+    width: 29.3vw;
+    height: 240px;
+    margin-top: 4.3vw;
+    margin-left: 2.6vw;
+    max-width: 100%;
+    max-height: fit-content;
+  }
+
+  .greyLine {
+    width: auto;
+    border: 9px solid rgba(255, 255, 255, 0.23);
+    margin-top: 18px;
+  }
+  
+  .vidText {
+    font-size: 2vw;
+    width: fit-content;
+    color: rgba(255, 255, 255, 1);
+    font-weight: Bold;
+    text-align: center;
+    margin-top: 41px;
+    margin-left: 200px;
+    display: -webkit-inline-box;
+    font-family: "Press Start 2P"
+  }
+
+  .news {
+    width: 29%;
+    height: 206px;
+    background: rgba(38, 34, 56, 1);
+    margin-top: -206px;
+    margin-right: auto;
+  }
+  
+  .newsText {
+    font-size: 2vw;
+    width: fit-content;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 83px;   
+    margin-left: 4.5vw;
+    text-align: center;
+    display: -webkit-inline-box;
+    font-family: "Press Start 2P"
+  }
+  
+  .faq {
+    width: 29%;
+    height: 206px;
+    background: rgba(38, 34, 56, 1);
+    margin-top: -491px;
+    margin-right: auto;
+  }
+  
+  .faqText {
+    font-size: 2vw;
+    width: fit-content;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 81px;
+    margin-left: 9vw;
+    text-align: center;
+    display: -webkit-inline-box;
+    font-family: "Press Start 2P"
+  }
+  
+  .techSupport {
+    width: 29%;
+    height: 206px;
+    background: rgba(38, 34, 56, 1);
+    margin-top: -475px;
+    margin-right: auto;
+  }
+  
+  .techSupportText {
+    font-size: 2vw;
+    width: fit-content;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 63px;
+    margin-left: 1vw;
+    text-align: center;
+    display: -webkit-inline-box;
+    font-family: "Press Start 2P"
+  }
+
+  .conteinerOther{
+    color: white;
+    position: relative;
+    max-width: 1440px;
+    min-height: 100%;
+    margin: auto;
+    font-family: 'Suisse';
+    box-sizing: border-box;
+}
+
+
+@media only screen and ( min-width: 1440px){
+
+    .videos {
+        margin-left: 30%;
+        margin-right: auto;
+        width: 70%;
+        height: 760px;
+        background: rgba(38, 34, 56, 1);
+        margin-top: 14px;
+      }
+      
+      /* Видео вставки */
+      
+      .vidOne,
+      .vidTwo,
+      .vidThree,
+      .vidFour {
+        width: 460px;
+        height: 240px;
+        margin-top: 60px;
+        margin-left: 37px;
+        max-width: 100%;
+        max-height: fit-content;
+      }
+    
+      .greyLine {
+        width: auto;
+        border: 9px solid rgba(255, 255, 255, 0.23);
+        margin-top: 18px;
+      }
+      
+      .vidText {
+        font-size: 40px;
+        width: fit-content;
+        color: rgba(255, 255, 255, 1);
+        font-weight: Bold;
+        text-align: center;
+        margin-top: 41px;
+        margin-left: 200px;
+        display: -webkit-inline-box;
+        font-family: "Press Start 2P"
+      }
+    
+      .news {
+        width: 29%;
+        height: 206px;
+        background: rgba(38, 34, 56, 1);
+        margin-top: -206px;
+        /* margin-left: 12%; */
+        margin-right: auto;
+      }
+      
+      .newsText {
+        font-size: 40px;
+        width: fit-content;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 83px;   
+        margin-left: 67px;
+        text-align: center;
+        display: -webkit-inline-box;
+        font-family: "Press Start 2P"
+      }
+      
+      .faq {
+        width: 29%;
+        height: 206px;
+        background: rgba(38, 34, 56, 1);
+        margin-top: -491px;
+        /* margin-left: 12%; */
+        margin-right: auto;
+      }
+      
+      .faqText {
+        font-size: 40px;
+        width: fit-content;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 81px;
+        margin-left: 143px;
+        text-align: center;
+        display: -webkit-inline-box;
+        font-family: "Press Start 2P"
+      }
+      
+      .techSupport {
+        width: 29%;
+        height: 206px;
+        background: rgba(38, 34, 56, 1);
+        margin-top: -475px;
+        /* margin-left: 12%; */
+        margin-right: auto;
+      }
+      
+      .techSupportText {
+        font-size: 40px;
+        width: fit-content;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 63px;
+        margin-left: 19px;
+        text-align: center;
+        display: -webkit-inline-box;
+        font-family: "Press Start 2P"
+      }
+
+
+
+}
+
+@media only screen and ( max-width: 1024px){
+
+}
+
+@media only screen and ( max-width: 768px){
+    .videos,
+    .vidOne,
+    .vidTwo,
+    .vidThree,
+    .vidFour,
+    .logo,
+    .news,
+    .faq,
+    .techSupport {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+    }
+
+    .vidText,
+    .greyLine,
+    .newsText,
+    .faqText,
+    .techSupportText {
+      margin-left: 5%;
+      width: 90%;
+    }
+
+    .newsText,
+    .faqText,
+    .techSupportText {
+        font-size: 6vw;
+    }
+
+    .logo {
+      padding-top: 1px;
+    }
+
+    .logo_img {
+        max-height: 250px;
+        margin-top: -5vw;
+    }
+
+    .vidText{
+        font-size: 35px;
+      }
+
+    .videos {
+     height: fit-content;
+    }
+
+    .news {
+     margin-top: 1%;
+    }
+
+    .faq {
+     margin-top: 0%;
+    }
+
+    .techSupport {
+     margin-top: 0%;
+    }
+
+
+    .techSupportText {
+     text-align: left;
+        }
+
+}
+
+@media only screen and ( max-width: 375px){
+    .logo_img {
+        max-height: 250px;
+        margin-top: 4vw;
+    }
+
+    .videos{
+      margin-top: 0px;
+    }
+
+}

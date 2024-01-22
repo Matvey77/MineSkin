@@ -1,0 +1,294 @@
+.conteinerLeftSide{
+
+}
+
+.conteinerUpperTools{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-evenly;
+}
+
+.undo{
+    width: 2.4vw;
+}
+
+.saveSkin{
+    width: 4vw;
+}
+
+.downloadSkin{
+    width: 4vw;
+}
+
+.redo{
+    width: 2.4vw;
+}
+
+.conteinerTools{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 7vw 7vw;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.brush{
+    width: 6.71vw;
+    max-width: 79px;
+}
+
+.fillColor{
+    margin-right: 24px;
+    width: 6.71vw;
+    max-width: 79px;
+}
+
+.eraser{
+    width: 6.71vw;
+    max-width: 79px;
+}
+
+.pipette{
+    margin-top: 7px;
+    width: 7.4vw;
+    margin-right: 24px;
+    max-width: 87px;
+}
+
+.pencil{
+    width: 6.71vw;
+    max-width: 79px;
+}
+
+.conteinerTips{
+    margin-top: 25px;
+}
+
+.hotKeys{
+    font-size: 18px;
+}
+
+.smallConteinerForTips{
+    margin-top: 15px;
+}
+
+.textForHotKeys{
+    font-size: 15px;
+}
+
+.combination{
+    margin-top: 7px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 70px 20px 70px;
+}
+
+.hotKey{
+    border-radius: 11px;
+    border: 1px solid black;
+    height: 24px;
+    width: 41px;
+    font-size: 16px;
+}
+
+#space{
+    width: 55px;
+}
+
+.bukva{
+    -webkit-text-stroke: 0.5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: yellow;
+}
+
+.plus{
+    font-size: 17px;
+}
+
+.z{
+
+}
+
+.y{
+    
+}
+
+.s{
+    
+}
+
+.space{
+
+}
+
+.mouse{
+    margin-right: 25px;
+}
+
+.one{
+
+}
+
+@media only screen and ( min-width: 1440px){
+
+    .conteinerUpperTools{
+        display: flex;
+        margin-top: 8px;
+        justify-content: space-evenly;
+    }
+ 
+    .undo{
+        width: auto;
+    }
+    
+    .saveSkin{
+        width: auto;
+    }
+    
+    .downloadSkin{
+        width: auto;
+    }
+    
+    .redo{
+        width: auto;
+    }
+
+    .conteinerTools{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 100px 100px;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+    }
+    
+    .brush{
+        width: auto;
+    }
+    
+    .fillColor{
+        margin-right: 0px;
+        width: auto;
+    }
+    
+    .eraser{
+        width: auto;
+    }
+    
+    .pipette{
+        margin-top: 7px;
+        width: auto;
+        margin-right: 0px;
+    }
+    
+    .pencil{
+        width: auto;
+    }
+
+    .conteinerTips{
+        margin-top: 25px;
+    }
+    
+    .smallConteinerForTips{
+        margin-top: 15px;
+    }
+    
+    .textForHotKeys{
+        font-size: 15px;
+    }
+    
+    .combination{
+        margin-top: 7px;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 70px 20px 70px;
+    }
+
+    .plus{
+        font-size: 17px;
+    }
+
+    .mouse{
+        margin-right: 25px;
+    }
+
+}
+
+@media only screen and ( max-width: 1024px){
+    .conteinerTips{
+        display: none;
+    }
+
+    .conteinerTools{
+        justify-items: center;
+        grid-template-columns: 6vw 6vw;
+    }
+
+    .brush,
+    .fillColor,
+    .eraser,
+    .pipette,
+    .pencil{
+        width: 7.71vw;
+        max-width: 71px;
+    }
+
+    .pipette{
+        max-width: 78px;
+        width: 8.5vw;
+    }
+
+}
+
+@media only screen and ( max-width: 768px){
+    .conteinerUpperTools{
+        width: auto;
+        display: grid;
+        grid-template-columns: 6.4vw;
+    }
+
+    .undo,
+    .redo{
+        width: 4.6vw;
+        max-height: 60px;
+    }
+
+    .saveSkin,
+    .downloadSkin{
+        width: 6vw;
+    }
+
+    .conteinerTools{
+        grid-template-columns: 14vw;
+    }
+
+    .fillColor{
+        margin-right: 0px;
+    }
+
+    .pipette{
+        width: 14.71vw;
+        margin-bottom: -5px;
+        margin-right: 0px;
+    }
+
+    .brush,
+    .fillColor,
+    .eraser,
+    .pipette,
+    .pencil{
+       margin-top: 5px;
+       width: 13.71vw;
+    }
+
+}
+
+@media only screen and ( max-width: 375px){
+    
+}

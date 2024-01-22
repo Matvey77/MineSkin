@@ -1,0 +1,166 @@
+.back {
+    width: 100%;
+    height: 100%;
+  }
+
+  .conteinerOther{
+    color: white;
+    position: relative;
+    max-width: 1440px;
+    min-height: 100%;
+    margin: auto;
+    font-family: 'Suisse';
+    box-sizing: border-box;
+}
+
+.newsbackground{
+    font-family: "Press Start 2P";
+    font-size: 1.389vw;
+    text-align: center;
+    background: #1a142e;
+    -webkit-text-stroke: 0.7px #000000;
+    opacity: 0.9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin-top: 1vw;
+    width: 100%;
+    /* height: 33vw; */
+}
+
+.textSplash{
+    font-size: 1.5vw;
+    text-align: center;
+    color: #FFF500;
+    margin-left: 61vw;
+    margin-top: -6vw;
+    transform: rotate(15deg);
+    display:    block;
+    margin-bottom: 50px;
+    width: max-content;
+}
+
+.diamondTools{
+    display: flex;
+
+}
+
+.img_sword{
+
+}
+
+.img_pickaxe{
+    margin-left: -67px;
+    margin-right: 79vw;
+}
+
+.newsContent{
+
+}
+
+.newsHeadline{
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 15px;
+}
+
+.news_bubble{
+
+}
+
+.headline{
+    font-size: 25px;
+    text-align: left;
+}
+
+
+
+/*1024 - 1440  unspecified*/
+
+@media only screen and ( min-width: 1440px){
+    .textSplash{
+        font-size: 22px;
+        width: max-content;
+        margin-left: 885px;
+        margin-top: -69px;
+        display: block;
+    }
+
+    .img_pickaxe{
+        margin-left: -67px;
+        margin-right: 1200px;
+    }
+
+    .headline{
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and ( max-width: 1024px){
+    .textSplash{
+        font-size: 2.5vw;
+        margin-left: 60vw;
+        margin-top: -10vw;
+        width: auto;
+    }
+
+    .img_pickaxe{
+        margin-left: -67px;
+        margin-right: 72vw;
+    }
+
+    .headline{
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and ( max-width: 768px){
+    .textSplash{
+        font-size: 3.5vw;
+        display: inline-block;
+        margin-top: 5vw;
+        margin-bottom: 0px;
+    }
+
+    .img_pickaxe,
+    .img_sword{
+        display: none;
+    }
+
+    .newsContent{
+        margin-top: 0vw;
+    }
+
+    .textSplash{
+        margin-left: 0px;
+        transform: rotate(0deg);
+        font-size: 3.8vw;
+    }
+
+    .headline{
+        font-size: 3.5vw;
+    }
+
+}
+
+@media only screen and ( max-width: 375px){
+
+    .logo_img {
+        max-height: 250px;
+        margin-top: 4vw;
+    }
+
+    .textSplash{
+        font-size: 5.5vw;
+    }
+
+    .headline{
+        font-size: 4.5vw;
+    }
+
+    .newsbackground{
+        margin-top: 0px;
+    }
+
+}
